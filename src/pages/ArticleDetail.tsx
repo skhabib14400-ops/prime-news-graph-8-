@@ -247,9 +247,9 @@ export const ArticleDetail: React.FC<ArticleDetailProps> = ({
       </div>
 
       {/* Main Grid: Article Content (8 cols) + Sidebar (4 cols) */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
         {/* Article Column */}
-        <article className="lg:col-span-8 bg-white dark:bg-[#101D35] p-6 sm:p-10 rounded-xl shadow-xs border border-slate-200/80 dark:border-slate-800 transition-colors article-content">
+        <article className="lg:col-span-8 bg-white dark:bg-[#101D35] p-6 sm:p-10 rounded-xl shadow-xs border border-slate-200/80 dark:border-slate-800 transition-colors article-content h-auto overflow-visible">
           
           {/* 1. Featured Post Image (At the very top - Channel 24 Style) */}
           <div className="overflow-hidden rounded-xl bg-slate-100 dark:bg-slate-800 shadow-xs mb-6">
@@ -472,8 +472,11 @@ export const ArticleDetail: React.FC<ArticleDetailProps> = ({
             style={{
               fontSize: fontSizeMap[fontSizeLevel].body,
               lineHeight: fontSizeMap[fontSizeLevel].lineHeight,
+              height: 'auto',
+              maxHeight: 'none',
+              overflow: 'visible',
             }}
-            className="article-dynamic-content prose prose-slate dark:prose-invert max-w-none text-slate-800 dark:text-slate-200 space-y-4 my-6 transition-all duration-150"
+            className="article-dynamic-content prose prose-slate dark:prose-invert max-w-none text-slate-800 dark:text-slate-200 space-y-4 my-6 transition-all duration-150 h-auto overflow-visible clear-both"
             dangerouslySetInnerHTML={{ __html: content }}
           />
 
