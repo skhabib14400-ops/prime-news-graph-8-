@@ -1,0 +1,52 @@
+# ==============================================================================
+# PRIME NEWS GRAPH — Enterprise Netlify Configuration
+# Framework: React 19 + Vite SPA + Netlify Serverless Functions
+# ==============================================================================
+
+[build]
+  command = "bash build.sh"
+  publish = "dist"
+  functions = "netlify/functions"
+
+[build.environment]
+  NODE_VERSION = "20"
+  NPM_FLAGS = "--no-audit --prefer-offline"
+  VITE_CONFIG_NATIVE_IGNORE_WARNING = "true"
+
+# Forward API calls to Netlify serverless functions
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/api/:splat"
+  status = 200
+
+# Social & Search Crawlers (Facebook, WhatsApp, Twitter, Telegram, LinkedIn)
+[[redirects]]
+  from = "/news/*"
+  to = "/.netlify/functions/api/news/:splat"
+  status = 200
+  conditions = {User-Agent = ["*facebookexternalhit*", "*Facebot*", "*Twitterbot*", "*WhatsApp*", "*TelegramBot*", "*LinkedInBot*", "*Googlebot*", "*bingbot*"]}
+
+[[redirects]]
+  from = "/article/*"
+  to = "/.netlify/functions/api/news/:splat"
+  status = 200
+  conditions = {User-Agent = ["*facebookexternalhit*", "*Facebot*", "*Twitterbot*", "*WhatsApp*", "*TelegramBot*", "*LinkedInBot*", "*Googlebot*", "*bingbot*"]}
+
+# SPA client-side fallback route
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Cache-Control & Security Headers for static assets
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

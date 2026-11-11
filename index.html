@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="bn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>PRIME NEWS GRAPH – Premium International Digital News Portal</title>
+    <meta name="description" content="PRIME NEWS GRAPH delivers real-time breaking news, international headlines, investigative reports, business, politics, technology, and sports from across the globe." />
+    <meta name="keywords" content="Prime News Graph, Breaking News, International News, Bangladesh News, Politics, Business, Tech, Sports, Entertainment" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="PRIME NEWS GRAPH – Premium International Digital News Portal" />
+    <meta property="og:description" content="PRIME NEWS GRAPH delivers real-time breaking news, international headlines, investigative reports, business, politics, technology, and sports from across the globe." />
+    <meta property="og:site_name" content="PRIME NEWS GRAPH" />
+    <meta property="og:image" content="/assets/images/news_world_summit_1793801922828.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="PRIME NEWS GRAPH – Premium International Digital News Portal" />
+    <meta name="twitter:description" content="PRIME NEWS GRAPH delivers real-time breaking news, international headlines, investigative reports, business, politics, technology, and sports." />
+    <meta name="twitter:image" content="/assets/images/news_world_summit_1793801922828.jpg" />
+
+    <!-- PWA & Mobile Web Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#101D35" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="PrimeNews" />
+
+    <!-- Google Fonts: Inter, Playfair Display, Noto Sans Bengali, JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Bengali:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,700;0,900;1,600&display=swap" rel="stylesheet">
+
+    <!-- Zero-FOUC Instant Theme Initializer -->
+    <script>
+      (function() {
+        try {
+          var savedTheme = localStorage.getItem('png_theme');
+          var systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (savedTheme === 'dark' || (!savedTheme && systemDark)) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+
+    <!-- Mobile-Specific Touch Zoom Lock (Allows normal zoom on Desktop) -->
+    <script>
+      (function() {
+        var isTouchDevice = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0);
+        if (isTouchDevice) {
+          // Disable multi-touch gesture zooming on mobile touch screens
+          document.addEventListener('touchstart', function(event) {
+            if (event.touches.length > 1) {
+              event.preventDefault();
+            }
+          }, { passive: false });
+
+          // Disable double-tap zoom on mobile touch screens
+          var lastTouchEnd = 0;
+          document.addEventListener('touchend', function(event) {
+            var now = Date.now();
+            if (now - lastTouchEnd <= 300) {
+              event.preventDefault();
+            }
+            lastTouchEnd = now;
+          }, { passive: false });
+
+          // Disable iOS Safari pinch gestures
+          document.addEventListener('gesturestart', function(e) { e.preventDefault(); });
+          document.addEventListener('gesturechange', function(e) { e.preventDefault(); });
+          document.addEventListener('gestureend', function(e) { e.preventDefault(); });
+        }
+      })();
+    </script>
+  </head>
+  <body class="bg-[#F5F7FA] dark:bg-[#0B132B] text-[#222222] dark:text-[#E2E8F0] font-sans antialiased selection:bg-[#246BFD]/20 selection:text-[#101D35] transition-colors duration-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

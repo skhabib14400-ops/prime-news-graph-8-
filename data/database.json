@@ -1,0 +1,658 @@
+{
+  "articles": [
+    {
+      "id": "art-1",
+      "slug": "historic-global-diplomatic-summit-un-accord",
+      "title_bn": "জাতিসংঘের ঐতিহাসিক শীর্ষ সম্মেলন: বিশ্ব জলবায়ু ও শান্তি চুক্তিতে ১৯৮ দেশের স্বাক্ষর",
+      "title_en": "Historic Global Diplomatic Accord: 198 Nations Sign Landmark UN Peace & Climate Treaty",
+      "summary_bn": "আন্তর্জাতিক নেতাদের দীর্ঘ আলোচনার পর জেনেভায় গৃহীত হলো যুগান্তকারী ঘোষণা। এতে বৈশ্বিক নিরাপত্তা রক্ষা, সবুজ রূপান্তর এবং প্রযুক্তি বিনিময়ে ঐক্যমত প্রকাশ করেছে বিশ্ব সম্প্রদায়।",
+      "summary_en": "Following weeks of intensive multilateral negotiations in Geneva, 198 delegations formalized an unprecedented peace and carbon mitigation framework establishing new international enforcement mechanisms.",
+      "content_bn": "<p class=\"lead\">জেনেভায় অনুষ্ঠিত বিশেষ জাতিসংঘ সম্মেলনে আজ ইতিহাসের অন্যতম বৃহৎ বৈশ্বিক শান্তি ও পরিবেশগত রূপান্তর চুক্তি স্বাক্ষরিত হয়েছে। ১৯৮টি সার্বভৌম দেশের শীর্ষ কূটনৈতিক প্রতিনিধিরা সম্মিলিত ঘোষণাপত্রে স্বাক্ষর করেন।</p>\n<h2>নতুন বৈশ্বিক রূপরেখা ও জলবায়ু সুরক্ষা</h2>\n<p>জাতিসংঘ মহাসচিব তার উদ্বোধনী বক্তব্যে বলেন, \"বর্তমান বিশ্ব যে বহুমুখী ভূরাজনৈতিক এবং পরিবেশগত চ্যালেঞ্জের মুখোমুখি, তা একক কোনো রাষ্ট্রের পক্ষে মোকাবেলা করা অসম্ভব। আজকের চুক্তি আন্তর্জাতিক আইনের মর্যাদা এবং ভবিষ্যৎ প্রজন্মের নিরাপত্তা নিশ্চিত করবে।\"</p>\n<blockquote>\"আমরা এমন একটি সন্ধিক্ষণে দাঁড়িয়েছি যেখানে বিভেদ ভুলে মানবজাতির অস্তিত্ব রক্ষাই আমাদের প্রধান কর্তব্য।\" — জাতিসংঘ মহাসচিব</blockquote>\n<p>চুক্তির মূল ধারাসমূহে অনুন্নত ও উন্নয়নশীল দেশগুলোর জন্য ২০০ বিলিয়ন ডলারের জলবায়ু অভিযোজন তহবিল গঠনের অঙ্গীকার করা হয়েছে। এছাড়া আন্তর্জাতিক সীমান্তে শান্তি বজায় রাখা ও পারমাণবিক অস্ত্র নিয়ন্ত্রণ সংক্রান্ত পর্যবেক্ষণ ব্যবস্থা আরও জোরদার করার সিদ্ধান্ত গৃহীত হয়েছে।</p>\n<h2>বাণিজ্য ও প্রযুক্তি বিনিময়</h2>\n<p>সম্মেলনে বাণিজ্য ক্ষেত্রে সবুজ জ্বালানি প্রযুক্তি করমুক্তভাবে স্থানান্তরের প্রস্তাব বিপুল সংখ্যাগরিষ্ঠতায় পাস হয়। এশীয় ও ইউরোপীয় অর্থনৈতিক জোটের প্রতিনিধিরা একে টেকসই অর্থনীতির পক্ষে এক বিরাট মাইলফলক হিসেবে অভিহিত করেছেন।</p>",
+      "content_en": "<p class=\"lead\">In an extraordinary moment of multilateral consensus, representatives from 198 sovereign nations gathered in Geneva today to formally sign the Comprehensive Peace and Climate Security Accord.</p>\n<h2>A New Era of Multilateral Governance</h2>\n<p>Addressing the plenary assembly, the UN Secretary-General characterized the agreement as a historic turning point: \"We stand at an unprecedented juncture where fragmented responses are no longer viable. Today's accord codifies binding obligations to protect human welfare and global stability.\"</p>\n<blockquote>\"Our collective security is indivisible from planetary sustainability.\" — Assembly Resolution 78/B</blockquote>\n<p>Key pillars of the accord include a $200 billion climate transition endowment dedicated to vulnerable emerging economies, stringent enforcement metrics for maritime freedom, and transparent technological verification protocols.</p>",
+      "category_id": "cat-2",
+      "category_slug": "international",
+      "category_name_bn": "আন্তর্জাতিক",
+      "category_name_en": "International",
+      "author_id": "auth-1",
+      "author_name": "রফিকুল ইসলাম (Rafiqul Islam)",
+      "author_avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80",
+      "author_role": "Executive Editor",
+      "featured_image": "/src/assets/images/news_world_summit_1793801922828.jpg",
+      "image_caption_bn": "জেনেভায় আন্তর্জাতিক শান্তি ও জলবায়ু শীর্ষ সম্মেলনে অংশগ্রহণকারী বিশ্ব নেতৃবৃন্দ।",
+      "image_caption_en": "World leaders and diplomatic envoys during the plenary session of the Global Accord in Geneva.",
+      "status": "published",
+      "is_featured": true,
+      "is_editors_choice": true,
+      "views_count": 14251,
+      "published_at": "2026-11-04T12:31:50.144Z",
+      "updated_at": "2026-11-04T14:31:50.148Z",
+      "seo_title": "জাতিসংঘের ঐতিহাসিক শীর্ষ সম্মেলন: বিশ্ব জলবায়ু ও শান্তি চুক্তি | PRIME NEWS GRAPH",
+      "seo_description": "জেনেভায় ১৯৮ দেশের অংশগ্রহণে স্বাক্ষরিত হলো জাতিসংঘের ঐতিহাসিক শান্তি ও পরিবেশগত নিরাপত্তা চুক্তি।",
+      "reading_time_minutes": 5,
+      "tags": [
+        "United Nations",
+        "International",
+        "Climate Accord",
+        "Geneva Summit"
+      ]
+    },
+    {
+      "id": "art-2",
+      "slug": "next-generation-quantum-semiconductor-fabrication-breakthrough",
+      "title_bn": "সেমিকন্ডাক্টর বিপ্লব: পরবর্তী প্রজন্মের ২-ন্যানোমিটার এআই চিপ উৎপাদনে নতুন দিগন্ত",
+      "title_en": "Semiconductor Revolution: Next-Generation 2nm AI Microchip Mass Production Begins",
+      "summary_bn": "নতুন আল্ট্রা-ইউভি লিথোগ্রাফি প্রযুক্তির সফল পরীক্ষায় কৃত্রিম বুদ্ধিমত্তা ও কোয়ান্টাম কম্পিউটিং প্রসেসর উৎপাদনে ৪০% কার্যক্ষমতা বৃদ্ধি ও ৬০% কম বিদ্যুৎ খরচের সুসংবাদ মিলেছে।",
+      "summary_en": "Cutting-edge extreme ultraviolet (EUV) photolithography enables high-yield 2-nanometer architecture, delivering dramatic performance leaps for artificial intelligence neural engines.",
+      "content_bn": "<p class=\"lead\">প্রযুক্তি বিশ্বে যুগান্তকারী আলোড়ন সৃষ্টি করে অত্যাধুনিক ২-ন্যানোমিটার সেমিকন্ডাক্টর চিপের বাণিজ্যিক উৎপাদন প্রক্রিয়া শুরু হয়েছে। গবেষক ও প্রকৌশলীদের দাবি, এটি বর্তমান কম্পিউটিং সক্ষমতাকে বহু গুণ ছাড়িয়ে যাবে।</p>\n<h2>বিদ্যুৎ সাশ্রয় ও অভাবনীয় গতি</h2>\n<p>নতুন স্থাপত্যে ট্রানজিস্টর ঘনত্ব দ্বিগুণ বৃদ্ধি পাওয়ায় ডাটা সেন্টারে কৃত্রিম বুদ্ধিমত্তা মডেল প্রশিক্ষণের বিদ্যুৎ খরচ ৬০ শতাংশ পর্যন্ত হ্রাস পাবে। একই সাথে প্রতিটি প্রসেসরের গতি প্রায় ৪০ শতাংশ বৃদ্ধি পাবে।</p>\n<blockquote>\"কোয়ান্টাম ও এআই অ্যালগরিদম প্রক্রিয়াকরণে এটি আগামী এক দশকের সবচেয়ে তাৎপর্যপূর্ণ প্রযুক্তিগত অগ্রগতি।\" — প্রধান চিপ স্থপতি</blockquote>\n<p>বিশ্বজুড়ে স্মার্টফোন, স্বচালিত যানবাহন এবং হাইপারস্কেল ক্লাউড প্ল্যাটফর্মগুলোতে ২০২৭ সালের প্রথম প্রান্তিক থেকেই এই চিপ সরবরাহ শুরু হবে।</p>",
+      "content_en": "<p class=\"lead\">Global semiconductor fabrication reached a watershed milestone today as automated cleanrooms officially commenced initial commercial yields of next-generation 2-nanometer neural accelerator nodes.</p>\n<h2>Efficiency Re-engineered</h2>\n<p>By leveraging extreme ultraviolet lithography and backside power delivery networks, the new silicon architecture slashes inference energy consumption by 60% while unlocking 40% higher clock frequencies.</p>\n<p>Major cloud infrastructure providers and autonomous robotics manufacturers are anticipated to integrate the first commercial batches by early next year.</p>",
+      "category_id": "cat-5",
+      "category_slug": "technology",
+      "category_name_bn": "তথ্যপ্রযুক্তি",
+      "category_name_en": "Technology",
+      "author_id": "auth-3",
+      "author_name": "ফারহানা চৌধুরী (Farhana Chowdhury)",
+      "author_avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80",
+      "author_role": "Technology Editor",
+      "featured_image": "/src/assets/images/news_tech_ai_chip_1793801922448.jpg",
+      "image_caption_bn": "আধুনিক চিপ ফ্যাব্রিকেশন ল্যাবরেটরিতে রোবোটিক সিলিকন ওয়েফার পর্যবেক্ষণরত গবেষক দল।",
+      "image_caption_en": "Engineers in sterile semiconductor cleanrooms inspecting silicon wafers under precision optics.",
+      "status": "published",
+      "is_featured": true,
+      "is_editors_choice": false,
+      "views_count": 8920,
+      "published_at": "2026-11-04T09:31:50.148Z",
+      "updated_at": "2026-11-04T14:31:50.148Z",
+      "seo_title": "সেমিকন্ডাক্টর বিপ্লব: পরবর্তী প্রজন্মের ২-ন্যানোমিটার এআই চিপ | PRIME NEWS GRAPH",
+      "seo_description": "সেমিকন্ডাক্টর উৎপাদন শিল্পে ২-ন্যানোমিটার চিপের বাণিজ্যিক বিপ্লব শুরু। এআই ও কম্পিউটিংয়ে বিশাল অগ্রগতি।",
+      "reading_time_minutes": 4,
+      "tags": [
+        "Semiconductor",
+        "AI",
+        "Technology",
+        "Hardware"
+      ]
+    },
+    {
+      "id": "art-3",
+      "slug": "dhaka-metro-rail-network-expansion-phase-two-operational",
+      "title_bn": "মেট্রোরেলের নতুন ধাপ চালু: নগর যোগাযোগে নতুন গতি, প্রতিদিন ১০ লাখ যাত্রীর স্বস্তি",
+      "title_en": "Metro Rail Phase Two Fully Operational: High-Speed Urban Mobility for 1 Million Daily Riders",
+      "summary_bn": "রাজধানীর দীর্ঘ প্রতীক্ষিত বর্ধিত মেট্রোরেল রুট সর্বসাধারণের জন্য খুলে দেওয়া হলো। যানজটমুক্ত দ্রুত যাতায়াতে নগরবাসীর জীবনে এসেছে স্বস্তির নিঃশ্বাস।",
+      "summary_en": "Urban commuting achieves a monumental leap forward as the extended rapid transit metro line opens to the public, drastically cutting cross-city travel times and road congestion.",
+      "content_bn": "<p class=\"lead\">রাজধানীর যানজট নিরসনে নতুন মাইলফলক রচিত হলো আজ। মেট্রোরেল নেটওয়ার্কের বর্ধিত অংশ আনুষ্ঠানিক উদ্বোধনের পর সর্বসাধারণের জন্য উন্মুক্ত করা হয়েছে।</p>\n<h2>দ্রুত যাতায়াত ও আধুনিক সুবিধা</h2>\n<p>প্রথম দিন থেকেই স্টেশনগুলোতে যাত্রীদের বিপুল উৎসাহ দেখা গেছে। স্বয়ংক্রিয় টিকেটিং, আধুনিক নিরাপত্তা ব্যবস্থা ও শীতাতপ নিয়ন্ত্রিত কোচের কারণে ঘণ্টার পর ঘণ্টার যানজট এখন কয়েক মিনিটের আরামদায়ক ভ্রমণে পরিণত হয়েছে।</p>\n<blockquote>\"আগে মতিঝিল পৌঁছাতে যেখানে দুই থেকে তিন ঘণ্টা লাগত, এখন মাত্র ২৫ মিনিটে নিরাপদে পৌঁছানো সম্ভব হচ্ছে।\" — এক নিয়মিত যাত্রী</blockquote>\n<p>কর্তৃপক্ষ জানিয়েছে, এই রুটে দৈনিক প্রায় ১০ লাখ যাত্রী যাতায়াত করতে পারবেন। এতে যেমন প্রচুর জ্বালানি তেল সাশ্রয় হবে, তেমনই কার্বন নিঃসরণ হ্রাসে বিশাল ভূমিকা রাখবে।</p>",
+      "content_en": "<p class=\"lead\">In a transformative moment for metropolitan transit, the newly completed extension of the automated elevated metro rail system welcomed its first waves of daily commuters this morning.</p>\n<h2>Slashing Travel Hours into Minutes</h2>\n<p>The electric rapid transit infrastructure directly bypasses the city's historically congested thoroughfares, reducing typical two-hour bottlenecks to an effortless 25-minute glide across central commercial arteries.</p>\n<p>Transit planners estimate the system will accommodate up to one million daily passengers while significantly shrinking automotive emissions.</p>",
+      "category_id": "cat-1",
+      "category_slug": "national",
+      "category_name_bn": "জাতীয়",
+      "category_name_en": "National",
+      "author_id": "auth-2",
+      "author_name": "তানভীর আহমেদ (Tanvir Ahmed)",
+      "author_avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
+      "author_role": "Chief Political Correspondent",
+      "featured_image": "/src/assets/images/news_dhaka_metro_1793801923998.jpg",
+      "image_caption_bn": "সবুজ নগরীর বুক চিরে ছুটে চলা আধুনিক এলিভেটেড মেট্রোরেল।",
+      "image_caption_en": "Modern elevated metro rail gliding seamlessly through the urban skyline at golden hour.",
+      "status": "published",
+      "is_featured": true,
+      "is_editors_choice": true,
+      "views_count": 12410,
+      "published_at": "2026-11-04T06:31:50.148Z",
+      "updated_at": "2026-11-04T14:31:50.148Z",
+      "seo_title": "মেট্রোরেলের বর্ধিত অংশ চালু: নগর যোগাযোগে ঐতিহাসিক পরিবর্তন | PRIME NEWS GRAPH",
+      "seo_description": "মেট্রোরেলের বর্ধিত অংশ চালু হওয়ায় যানজটমুক্ত দ্রুত যাতায়াত নিশ্চিত হয়েছে রাজধানীতে।",
+      "reading_time_minutes": 4,
+      "tags": [
+        "Metro Rail",
+        "National",
+        "Infrastructure",
+        "Urban Development"
+      ]
+    },
+    {
+      "id": "art-4",
+      "slug": "world-cup-thriller-championship-final-victory",
+      "title_bn": "রুদ্ধশ্বাস ফাইনাল: শেষ ওভারের রোমাঞ্চে বিশ্ব চ্যাম্পিয়নদের অবিস্মরণীয় জয়",
+      "title_en": "World Championship Thriller: Last-Over Climax Seals Historic Title Triumph",
+      "summary_bn": "ক্রিকেট ইতিহাসের অন্যতম সেরা এক ফাইনালে শেষ বল পর্যন্ত টানটান উত্তেজনা। দুর্দান্ত বোলিং ও অসাধারণ ফিল্ডিংয়ের ওপর ভর করে ট্রফি ঘরে তুলল চ্যাম্পিয়নরা।",
+      "summary_en": "In one of the most electric championship finals in sporting memory, a masterful defensive bowling display under floodlights clinched the world title on the penultimate delivery.",
+      "content_bn": "<p class=\"lead\">ক্রীড়াপ্রেমীদের হৃদস্পন্দন থামিয়ে দেওয়া এক মহানাটকীয় ফাইনালে বিশ্ব আসরের ট্রফি নিজেদের করে নিয়েছে নতুন চ্যাম্পিয়নরা। কানায় কানায় পূর্ণ স্টেডিয়ামে উল্লাসের জোয়ার বয়ে যায়।</p>\n<h2>শেষ বলের নাটকীয়তা</h2>\n<p>জয়ের জন্য শেষ ওভারে প্রয়োজন ছিল মাত্র ৮ রান। হাতে ছিল দুই উইকেট। তবে জাদুকরী ইয়র্কার ও বুদ্ধিদীপ্ত ফিল্ডিং সাজিয়ে মাত্র ৪ রান খরচ করে জয় ছিনিয়ে নেয় দল।</p>\n<blockquote>\"এই মুহূর্তটির জন্যই আমরা প্রতিটি দিন ঘাম ঝরিয়েছি। দলের প্রত্যেকে নিজেদের সর্বোচ্চ নিংড়ে দিয়েছে।\" — বিজয়ী অধিনায়ক</blockquote>\n<p>ম্যান অব দ্য ম্যাচ নির্বাচিত হয়েছেন দুর্দান্ত শতক ও ক্যাচ নেওয়া অলরাউন্ডার তারকা। দেশজুড়ে ক্রিকেট ভক্তরা বিজয় মিছিলে মুখর হয়ে উঠেছেন।</p>",
+      "content_en": "<p class=\"lead\">Under brilliant stadium floodlights before an ecstatic sellout crowd of 80,000 spectators, the cricket championship culminated in an unforgettable defensive stand on the final deliveries.</p>\n<h2>Nerves of Steel</h2>\n<p>Needing eight runs off the final six balls with two wickets remaining, the bowling attack delivered a masterclass of yorkers and precise fielding discipline to secure the coveted trophy.</p>",
+      "category_id": "cat-6",
+      "category_slug": "sports",
+      "category_name_bn": "খেলা",
+      "category_name_en": "Sports",
+      "author_id": "auth-4",
+      "author_name": "শামীম রেজা (Shamim Reza)",
+      "author_avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80",
+      "author_role": "Sports Editor",
+      "featured_image": "/src/assets/images/news_cricket_stadium_1793801922344.jpg",
+      "image_caption_bn": "ফ্লাডলাইটের আলোয় বিশ্ব আসরের শ্বাসরুদ্ধকর ফাইনাল মুহূর্ত।",
+      "image_caption_en": "Athletic power hitting and packed grandstands during the championship title match.",
+      "status": "published",
+      "is_featured": true,
+      "is_editors_choice": false,
+      "views_count": 19530,
+      "published_at": "2026-11-04T02:31:50.148Z",
+      "updated_at": "2026-11-04T14:31:50.148Z",
+      "seo_title": "রুদ্ধশ্বাস ফাইনাল: বিশ্ব চ্যাম্পিয়নদের অবিস্মরণীয় জয় | PRIME NEWS GRAPH",
+      "seo_description": "ক্রিকেট বিশ্বকাপের রোমাঞ্চকর ফাইনালে শেষ ওভারের নাটকীয়তায় অবিস্মরণীয় ট্রফি জয়।",
+      "reading_time_minutes": 4,
+      "tags": [
+        "Cricket",
+        "World Cup",
+        "Sports",
+        "Championship"
+      ]
+    },
+    {
+      "id": "art-5",
+      "slug": "global-economy-inflation-cools-asian-markets-surge",
+      "title_bn": "বৈশ্বিক অর্থনীতি: মুদ্রাস্ফীতি নিয়ন্ত্রণে স্বস্তি, এশিয়ার শেয়ারবাজারে রেকর্ড উত্থান",
+      "title_en": "Global Economy: Inflation Pressures Subside as Asian Financial Markets Rally",
+      "summary_bn": "কেন্দ্রীয় ব্যাংকগুলোর নীতি সুদহার পুনর্নির্ধারণের পর বিশ্ববাজারে স্থিতিশীলতা ফিরেছে। রফতানি আয় বৃদ্ধি ও রেমিট্যান্স প্রবাহে নতুন আশার আলো।",
+      "summary_en": "Benchmark indices surged across regional financial exchanges following positive consumer index prints and resilient industrial manufacturing data.",
+      "content_bn": "<p class=\"lead\">আন্তর্জাতিক মুদ্রা তহবিলের নতুন পূর্বাভাস এবং সরবরাহ শৃঙ্খল স্বাভাবিক হওয়ার খবরে বিশ্ব অর্থনীতিতে ইতিবাচক ধারা তৈরি হয়েছে। মুদ্রাস্ফীতির পারদ নিম্নমুখী হওয়ায় সাধারণ মানুষের জীবনে কিছুটা স্বস্তি ফিরেছে।</p>\n<h2>বাণিজ্য ও বিনিয়োগ বৃদ্ধি</h2>\n<p>আন্তর্জাতিক বাণিজ্যে পণ্য পরিবহন ব্যয় উল্লেখযোগ্য হারে কমেছে। ফলে তৈরি পোশাক, তথ্যপ্রযুক্তি সেবা এবং প্রক্রিয়াজাত খাদ্য রফতানিতে নতুন গতি সঞ্চারিত হয়েছে। বিশেষজ্ঞদের মতে, আগামী প্রান্তিকে প্রবৃদ্ধির হার আরও উন্নত হবে।</p>",
+      "content_en": "<p class=\"lead\">Positive macroeconomic indicators and stabilizing supply chain freight rates catalyzed broad gains across regional and international stock exchanges today.</p>\n<h2>Export Momentum Rebounds</h2>\n<p>With consumer price index prints declining in major consumer economies, central banks are signaling an accommodating monetary stance, accelerating private capital commitments.</p>",
+      "category_id": "cat-4",
+      "category_slug": "business",
+      "category_name_bn": "অর্থনীতি",
+      "category_name_en": "Business",
+      "author_id": "auth-1",
+      "author_name": "রফিকুল ইসলাম (Rafiqul Islam)",
+      "author_avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80",
+      "author_role": "Executive Editor",
+      "featured_image": "/src/assets/images/news_world_summit_1793801922828.jpg",
+      "image_caption_bn": "বিশ্ব অর্থনৈতিক সমীক্ষা ও বাণিজ্য সম্মেলন।",
+      "image_caption_en": "Economic delegates reviewing international financial outlook figures.",
+      "status": "published",
+      "is_featured": false,
+      "is_editors_choice": true,
+      "views_count": 7340,
+      "published_at": "2026-11-03T22:31:50.148Z",
+      "updated_at": "2026-11-04T14:31:50.148Z",
+      "seo_title": "বৈশ্বিক অর্থনীতি ও মুদ্রাস্ফীতি নিয়ন্ত্রণে স্বস্তি | PRIME NEWS GRAPH",
+      "seo_description": "বিশ্ববাজারে মুদ্রাস্ফীতি নিয়ন্ত্রণে আসায় শেয়ারবাজারে চাঙ্গাভাব এবং বাণিজ্যে ইতিবাচক সম্ভাবনা।",
+      "reading_time_minutes": 3,
+      "tags": [
+        "Economy",
+        "Markets",
+        "Business",
+        "Trade"
+      ]
+    },
+    {
+      "id": "art-6",
+      "slug": "higher-education-ai-research-centers-established",
+      "title_bn": "উচ্চশিক্ষা: পাবলিক বিশ্ববিদ্যালয়ে আধুনিক কৃত্রিম বুদ্ধিমত্তা ও রোবোটিক্স ল্যাব স্থাপন",
+      "title_en": "Higher Education: State-of-the-Art AI & Robotics Laboratories Launched in Universities",
+      "summary_bn": "চতুর্থ শিল্প বিপ্লবের চ্যালেঞ্জ মোকাবিলায় শিক্ষার্থীদের জন্য আন্তর্জাতিক মানের গবেষণা ও ল্যাবরেটরি সুবিধা নিশ্চিত করা হচ্ছে।",
+      "summary_en": "Government initiatives and academic partnerships inaugurate specialized supercomputing and autonomous robotics research hubs for graduate scholars.",
+      "content_bn": "<p class=\"lead\">দেশের শীর্ষস্থানীয় বিশ্ববিদ্যালয়গুলোতে অত্যাধুনিক কৃত্রিম বুদ্ধিমত্তা ও ডেটা সায়েন্স গবেষণাগার আনুষ্ঠানিকভাবে কার্যক্রম শুরু করেছে। এতে শিক্ষক ও শিক্ষার্থীরা আন্তর্জাতিক মানের গবেষণার সুযোগ পাবেন।</p>\n<h2>নতুন প্রজন্মের স্কিল ডেভেলপমেন্ট</h2>\n<p>নতুন এই ল্যাবগুলোতে সুপারকম্পিউটিং ক্লাস্টার ও রোবোটিক টেস্টিং গ্রাউন্ড রয়েছে। বিশ্ববিদ্যালয়ের উপাচার্য বলেন, \"আমাদের তরুণ প্রজন্মকে বিশ্বমঞ্চে নেতৃত্ব দিতে প্রযুক্তিগত দক্ষতায় স্বয়ংসম্পূর্ণ হতে হবে।\"</p>",
+      "content_en": "<p class=\"lead\">Leading national universities inaugurated high-performance supercomputing research facilities this week to equip doctoral and engineering students with cutting-edge artificial intelligence toolsets.</p>",
+      "category_id": "cat-8",
+      "category_slug": "education",
+      "category_name_bn": "শিক্ষা",
+      "category_name_en": "Education",
+      "author_id": "auth-3",
+      "author_name": "ফারহানা চৌধুরী (Farhana Chowdhury)",
+      "author_avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80",
+      "author_role": "Technology Editor",
+      "featured_image": "/src/assets/images/news_tech_ai_chip_1793801922448.jpg",
+      "image_caption_bn": "উচ্চশিক্ষা গবেষণাগারে আধুনিক সুপারকম্পিউটিং সিস্টেম।",
+      "image_caption_en": "Graduate engineering researchers utilizing advanced laboratory systems.",
+      "status": "published",
+      "is_featured": false,
+      "is_editors_choice": false,
+      "views_count": 5210,
+      "published_at": "2026-11-03T18:31:50.148Z",
+      "updated_at": "2026-11-04T14:31:50.148Z",
+      "seo_title": "উচ্চশিক্ষা ও এআই রোবোটিক্স ল্যাব | PRIME NEWS GRAPH",
+      "seo_description": "পাবলিক বিশ্ববিদ্যালয়ে আন্তর্জাতিক মানের কৃত্রিম বুদ্ধিমত্তা ল্যাবরেটরি উদ্বোধন।",
+      "reading_time_minutes": 3,
+      "tags": [
+        "Education",
+        "AI Lab",
+        "Universities",
+        "Research"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-1",
+      "name_bn": "জাতীয়",
+      "name_en": "National",
+      "slug": "national",
+      "color": "#101D35",
+      "order_index": 1,
+      "description": "জাতীয় সকল গুরুত্বপূর্ণ সংবাদ"
+    },
+    {
+      "id": "cat-2",
+      "name_bn": "আন্তর্জাতিক",
+      "name_en": "International",
+      "slug": "international",
+      "color": "#246BFD",
+      "order_index": 2,
+      "description": "বিশ্বজুড়ে ঘটে যাওয়া গুরুত্বপূর্ণ ঘটনা"
+    },
+    {
+      "id": "cat-3",
+      "name_bn": "রাজনীতি",
+      "name_en": "Politics",
+      "slug": "politics",
+      "color": "#DC2626",
+      "order_index": 3,
+      "description": "রাজনীতি ও কূটনীতি সংবাদ"
+    },
+    {
+      "id": "cat-4",
+      "name_bn": "অর্থনীতি",
+      "name_en": "Business",
+      "slug": "business",
+      "color": "#059669",
+      "order_index": 4,
+      "description": "বাণিজ্য, পুঁজিবাজার ও অর্থনীতি"
+    },
+    {
+      "id": "cat-5",
+      "name_bn": "তথ্যপ্রযুক্তি",
+      "name_en": "Technology",
+      "slug": "technology",
+      "color": "#7C3AED",
+      "order_index": 5,
+      "description": "এআই, গ্যাজেট ও উদ্ভাবন"
+    },
+    {
+      "id": "cat-6",
+      "name_bn": "খেলা",
+      "name_en": "Sports",
+      "slug": "sports",
+      "color": "#EA580C",
+      "order_index": 6,
+      "description": "ক্রিকেট, ফুটবল ও বৈশ্বিক ক্রীড়াঙ্গন"
+    },
+    {
+      "id": "cat-7",
+      "name_bn": "বিনোদন",
+      "name_en": "Entertainment",
+      "slug": "entertainment",
+      "color": "#DB2777",
+      "order_index": 7,
+      "description": "চলচ্চিত্র, গান ও বিনোদন জগৎ"
+    },
+    {
+      "id": "cat-8",
+      "name_bn": "শিক্ষা",
+      "name_en": "Education",
+      "slug": "education",
+      "color": "#0891B2",
+      "order_index": 8,
+      "description": "উচ্চশিক্ষা ও গবেষণার খবর"
+    },
+    {
+      "id": "cat-9",
+      "name_bn": "স্বাস্থ্য",
+      "name_en": "Health",
+      "slug": "health",
+      "color": "#16A34A",
+      "order_index": 9,
+      "description": "চিকিৎসা বিজ্ঞান ও সুস্থ জীবন"
+    },
+    {
+      "id": "cat-10",
+      "name_bn": "জীবনযাপন",
+      "name_en": "Lifestyle",
+      "slug": "lifestyle",
+      "color": "#CA8A04",
+      "order_index": 10,
+      "description": "ফ্যাশন, ভ্রমণ ও সংস্কৃতি"
+    },
+    {
+      "id": "cat-11",
+      "name_bn": "মতামত",
+      "name_en": "Opinion",
+      "slug": "opinion",
+      "color": "#4B5563",
+      "order_index": 11,
+      "description": "বিশ্লেষণ ও মুক্তকলাম"
+    }
+  ],
+  "breaking_news": [
+    {
+      "id": "bn-1",
+      "title_bn": "ব্রেকিং: জেনেভায় বিশ্ব বাণিজ্য আলোচনায় নতুন কর সহায়তা চুক্তি চূড়ান্ত",
+      "title_en": "Breaking: Global Trade Pact Finalized at Geneva Summit with Comprehensive Tariff Relief Provisions",
+      "target_url": "/news/historic-global-diplomatic-summit-un-accord",
+      "priority": 1,
+      "is_active": true,
+      "label_bn": "তাজা খবর",
+      "label_en": "BREAKING NEWS",
+      "scroll_speed": 35,
+      "created_at": "2026-11-04T14:31:50.148Z"
+    },
+    {
+      "id": "bn-2",
+      "title_bn": "মেট্রোরেলের বর্ধিত অংশ সফল উদ্বোধনের পর যাত্রী চলাচল শুরু, নগরজুড়ে উৎসবের আমেজ",
+      "title_en": "Metro Rail Phase Two Welcomes First Million Commuters Following Grand Inauguration",
+      "target_url": "/news/dhaka-metro-rail-network-expansion-phase-two-operational",
+      "priority": 2,
+      "is_active": true,
+      "label_bn": "জরুরি সংবাদ",
+      "label_en": "FLASH",
+      "scroll_speed": 35,
+      "created_at": "2026-11-04T14:31:50.148Z"
+    },
+    {
+      "id": "bn-3",
+      "title_bn": "সেমিকন্ডাক্টর বিপ্লব: পরবর্তী প্রজন্মের ২-ন্যানোমিটার চিপ উৎপাদনে বিশাল সফলতা",
+      "title_en": "Next-Gen 2nm AI Semiconductor Breakthrough Achieves 40% Speed Gains",
+      "target_url": "/news/next-generation-quantum-semiconductor-fabrication-breakthrough",
+      "priority": 3,
+      "is_active": true,
+      "label_bn": "প্রযুক্তি সংবাদ",
+      "label_en": "TECH ALERT",
+      "scroll_speed": 35,
+      "created_at": "2026-11-04T14:31:50.148Z"
+    },
+    {
+      "id": "bn-4",
+      "title_bn": "রুদ্ধশ্বাস ফাইনালে শেষ ওভারের রোমাঞ্চে বিশ্ব চ্যাম্পিয়নদের জয়",
+      "title_en": "Cricket World Cup: Thrilling Last-Over Climax Delivers Grand Championship Victory",
+      "target_url": "/news/world-cup-thriller-championship-final-victory",
+      "priority": 4,
+      "is_active": true,
+      "label_bn": "খেলাধুলা",
+      "label_en": "SPORTS FLASH",
+      "scroll_speed": 35,
+      "created_at": "2026-11-04T14:31:50.148Z"
+    }
+  ],
+  "ads": [
+    {
+      "id": "header_banner",
+      "name": "Header Top Leaderboard (728x90)",
+      "format": "banner",
+      "ad_code": "<script>\n  atOptions = {\n    'key' : 'b4815a2fd87e3b5b988b1e480f060c36',\n    'format' : 'iframe',\n    'height' : 90,\n    'width' : 728,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bicea.org/22/b4815a2fd87e3b5b988b1e480f060c36\"></script>",
+      "is_active": true,
+      "device_target": "all",
+      "impressions": 24509,
+      "clicks": 1240
+    },
+    {
+      "id": "homepage_top",
+      "name": "Homepage Top Billboard (728x90)",
+      "format": "banner",
+      "ad_code": "<script>\n  atOptions = {\n    'key' : 'b4815a2fd87e3b5b988b1e480f060c36',\n    'format' : 'iframe',\n    'height' : 90,\n    'width' : 728,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bicea.org/22/b4815a2fd87e3b5b988b1e480f060c36\"></script>",
+      "is_active": true,
+      "device_target": "all",
+      "impressions": 18410,
+      "clicks": 980
+    },
+    {
+      "id": "between_news",
+      "name": "Homepage In-Feed Native Banner (728x90)",
+      "format": "banner",
+      "ad_code": "<script>\n  atOptions = {\n    'key' : 'b4815a2fd87e3b5b988b1e480f060c36',\n    'format' : 'iframe',\n    'height' : 90,\n    'width' : 728,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bicea.org/22/b4815a2fd87e3b5b988b1e480f060c36\"></script>",
+      "is_active": true,
+      "device_target": "all",
+      "impressions": 12110,
+      "clicks": 650
+    },
+    {
+      "id": "sidebar_banner",
+      "name": "Article & Homepage Sidebar (300x250 Medium Rectangle)",
+      "format": "banner",
+      "ad_code": "<script>\n  atOptions = {\n    'key' : 'b7d833859be47ccda4fccadb7f2154e8',\n    'format' : 'iframe',\n    'height' : 250,\n    'width' : 300,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bicea.org/22/b7d833859be47ccda4fccadb7f2154e8\"></script>",
+      "is_active": true,
+      "device_target": "all",
+      "impressions": 31211,
+      "clicks": 1890
+    },
+    {
+      "id": "article_top",
+      "name": "Article Top Banner (Above Headline 728x90)",
+      "format": "banner",
+      "ad_code": "<script>\n  atOptions = {\n    'key' : 'b4815a2fd87e3b5b988b1e480f060c36',\n    'format' : 'iframe',\n    'height' : 90,\n    'width' : 728,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bicea.org/22/b4815a2fd87e3b5b988b1e480f060c36\"></script>",
+      "is_active": true,
+      "device_target": "all",
+      "impressions": 15601,
+      "clicks": 820
+    },
+    {
+      "id": "article_middle",
+      "name": "Article In-Read Content Banner (300x250 Medium Rectangle)",
+      "format": "banner",
+      "ad_code": "<script>\n  atOptions = {\n    'key' : 'b7d833859be47ccda4fccadb7f2154e8',\n    'format' : 'iframe',\n    'height' : 250,\n    'width' : 300,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bicea.org/22/b7d833859be47ccda4fccadb7f2154e8\"></script>",
+      "is_active": true,
+      "device_target": "all",
+      "impressions": 21301,
+      "clicks": 1120
+    },
+    {
+      "id": "article_bottom",
+      "name": "Article Bottom Leaderboard (728x90)",
+      "format": "banner",
+      "ad_code": "<script>\n  atOptions = {\n    'key' : 'b4815a2fd87e3b5b988b1e480f060c36',\n    'format' : 'iframe',\n    'height' : 90,\n    'width' : 728,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bicea.org/22/b4815a2fd87e3b5b988b1e480f060c36\"></script>",
+      "is_active": true,
+      "device_target": "all",
+      "impressions": 14701,
+      "clicks": 740
+    },
+    {
+      "id": "footer_banner",
+      "name": "Footer Leaderboard Banner (728x90)",
+      "format": "banner",
+      "ad_code": "<script>\n  atOptions = {\n    'key' : 'b4815a2fd87e3b5b988b1e480f060c36',\n    'format' : 'iframe',\n    'height' : 90,\n    'width' : 728,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bicea.org/22/b4815a2fd87e3b5b988b1e480f060c36\"></script>",
+      "is_active": true,
+      "device_target": "all",
+      "impressions": 9809,
+      "clicks": 390
+    },
+    {
+      "id": "mobile_banner",
+      "name": "Mobile Sticky / Floating Bottom Banner (320x50)",
+      "format": "banner",
+      "ad_code": "<script>\n  atOptions = {\n    'key' : 'feaa78b521d61a9a46b260640dab7e68',\n    'format' : 'iframe',\n    'height' : 50,\n    'width' : 320,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bicea.org/22/feaa78b521d61a9a46b260640dab7e68\"></script>",
+      "is_active": true,
+      "device_target": "mobile",
+      "impressions": 28909,
+      "clicks": 1640
+    },
+    {
+      "id": "popunder",
+      "name": "Adsterra Popunder Script Controller",
+      "format": "popunder",
+      "ad_code": "<script data-cfasync=\"false\" src=\"https://afders.org/1/210e04c023065f4bd73f5a218a3af0ee\"></script>",
+      "is_active": true,
+      "device_target": "all",
+      "impressions": 5400,
+      "clicks": 310
+    },
+    {
+      "id": "social_bar",
+      "name": "Adsterra Social Bar Web Push / Banner",
+      "format": "social_bar",
+      "ad_code": "<script data-cfasync=\"false\" src=\"https://bicea.org/14/046bfb413c6b955fc22060813fa0a79a\"></script>",
+      "is_active": true,
+      "device_target": "all",
+      "impressions": 8900,
+      "clicks": 520
+    }
+  ],
+  "videos": [
+    {
+      "id": "vid-1",
+      "title_bn": "বিশেষ প্রতিবেদন: বদলে যাওয়া মেগাসিটি ও আধুনিক যোগাযোগ ব্যবস্থার নতুন রূপরেখা",
+      "title_en": "Special Documentary: Transforming Megacities and the Future of Urban Transit",
+      "youtube_id": "LXb3EKWsInQ",
+      "category": "national",
+      "is_featured": true,
+      "published_at": "2026-11-03T14:31:50.148Z"
+    },
+    {
+      "id": "vid-2",
+      "title_bn": "আন্তর্জাতিক বিশ্লেষণ: জেনেভা শান্তি চুক্তি ও বৈশ্বিক ভূরাজনীতির সমীকরণ",
+      "title_en": "Global Analysis: Inside the Historic Geneva Accord and Geopolitical Balance",
+      "youtube_id": "kJQP7kiw5Fk",
+      "category": "international",
+      "is_featured": true,
+      "published_at": "2026-11-02T14:31:50.148Z"
+    },
+    {
+      "id": "vid-3",
+      "title_bn": "তথ্যপ্রযুক্তি: পরবর্তী প্রজন্মের কোয়ান্টাম চিপ যেভাবে পাল্টে দেবে আমাদের জীবন",
+      "title_en": "Technology Insight: How Quantum and AI Silicon Nodes Will Redefine Daily Life",
+      "youtube_id": "fJ9rUzIMcZQ",
+      "category": "technology",
+      "is_featured": false,
+      "published_at": "2026-11-01T14:31:50.148Z"
+    }
+  ],
+  "authors": [
+    {
+      "id": "auth-1",
+      "name": "রফিকুল ইসলাম (Rafiqul Islam)",
+      "bio_bn": "আন্তর্জাতিক বিষয়ক প্রধান বিশ্লেষক ও জ্যেষ্ঠ সম্পাদক, বৈশ্বিক ভূরাজনীতি ও কূটনীতি বিশেষজ্ঞ।",
+      "bio_en": "Senior International Affairs Analyst and Executive Editor specializing in global geopolitics and multilateral accords.",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80",
+      "email": "rafiqul@primenewsgraph.com",
+      "role": "Executive Editor",
+      "social_twitter": "https://twitter.com",
+      "social_facebook": "https://facebook.com"
+    },
+    {
+      "id": "auth-2",
+      "name": "তানভীর আহমেদ (Tanvir Ahmed)",
+      "bio_bn": "জাতীয় রাজনীতি ও অনুসন্ধানমূলক প্রতিবেদনের প্রধান প্রতিবেদক।",
+      "bio_en": "Chief Political Correspondent leading investigative reporting and governance accountability.",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
+      "email": "tanvir@primenewsgraph.com",
+      "role": "Chief Investigative Correspondent",
+      "social_twitter": "https://twitter.com"
+    },
+    {
+      "id": "auth-3",
+      "name": "ফারহানা চৌধুরী (Farhana Chowdhury)",
+      "bio_bn": "প্রযুক্তি ও উদ্ভাবন বিভাগের সিনিয়র এডিটর, আর্টিফিশিয়াল ইন্টেলিজেন্স গবেষক।",
+      "bio_en": "Technology & Frontier Innovation Editor specializing in AI systems, semiconductor manufacturing, and cybersecurity.",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80",
+      "email": "farhana@primenewsgraph.com",
+      "role": "Technology Editor",
+      "social_twitter": "https://twitter.com"
+    },
+    {
+      "id": "auth-4",
+      "name": "শামীম রেজা (Shamim Reza)",
+      "bio_bn": "ক্রীড়া সম্পাদক ও আন্তর্জাতিক ক্রিকেট বিশ্লেষক।",
+      "bio_en": "Sports Editor and International Cricket Analyst covering global tournaments and sports analytics.",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80",
+      "email": "shamim@primenewsgraph.com",
+      "role": "Sports Editor"
+    }
+  ],
+  "comments": [
+    {
+      "id": "comm-1",
+      "article_id": "art-1",
+      "article_title": "জাতিসংঘের ঐতিহাসিক শীর্ষ সম্মেলন: বিশ্ব জলবায়ু ও শান্তি চুক্তিতে ১৯৮ দেশের স্বাক্ষর",
+      "author_name": "ড. মাহমুদুর রহমান (Dr. Mahmudur Rahman)",
+      "author_email": "mahmud@example.com",
+      "content": "এই চুক্তির প্রতিটি ধারা যদি সঠিকভাবে বাস্তবায়িত হয়, তবে তৃতীয় বিশ্বের উপকূলীয় দেশগুলো সবচেয়ে বেশি উপকৃত হবে। নিরপেক্ষ এবং গঠনমূলক সংবাদ পরিবেশনের জন্য প্রাইম নিউজ গ্রাফকে ধন্যবাদ।",
+      "status": "approved",
+      "created_at": "2026-11-04T11:31:50.148Z"
+    },
+    {
+      "id": "comm-2",
+      "article_id": "art-3",
+      "article_title": "মেট্রোরেলের নতুন ধাপ চালু: নগর যোগাযোগে নতুন গতি, প্রতিদিন ১০ লাখ যাত্রীর স্বস্তি",
+      "author_name": "সাঈদ হাসান (Sayeed Hasan)",
+      "author_email": "sayeed@example.com",
+      "content": "আজ সকালে প্রথম ভ্রমণ করলাম। অত্যন্ত সুশৃঙ্খল ও পরিষ্কার পরিবেশ। আমাদের দৈনন্দিন কর্মঘণ্টা বেঁচে যাবে এতে।",
+      "status": "approved",
+      "created_at": "2026-11-04T10:31:50.148Z"
+    },
+    {
+      "id": "comm-3",
+      "article_id": "art-4",
+      "article_title": "রুদ্ধশ্বাস ফাইনাল: শেষ ওভারের রোমাঞ্চে বিশ্ব চ্যাম্পিয়নদের অবিস্মরণীয় জয়",
+      "author_name": "অনিক চৌধুরী (Anik Chowdhury)",
+      "author_email": "anik@example.com",
+      "content": "অবিশ্বাস্য ম্যাচ! শেষ ওভারের প্রতিটি বল ছিল শ্বাসরুদ্ধকর। অসাধারণ কভারেজ।",
+      "status": "approved",
+      "created_at": "2026-11-04T08:31:50.148Z"
+    }
+  ],
+  "subscribers": [
+    {
+      "id": "sub-1",
+      "email": "editor.choice@primenewsgraph.com",
+      "created_at": "2026-10-25T14:31:50.148Z",
+      "status": "active"
+    },
+    {
+      "id": "sub-2",
+      "email": "reader.global@gmail.com",
+      "created_at": "2026-10-28T14:31:50.148Z",
+      "status": "active"
+    },
+    {
+      "id": "sub-3",
+      "email": "investor.news@outlook.com",
+      "created_at": "2026-10-31T14:31:50.148Z",
+      "status": "active"
+    },
+    {
+      "id": "sub-4",
+      "email": "tech.digest@yahoo.com",
+      "created_at": "2026-11-02T14:31:50.148Z",
+      "status": "active"
+    }
+  ],
+  "settings": {
+    "site_name": "PRIME NEWS GRAPH",
+    "site_tagline_bn": "সত্য, বস্তুনিষ্ঠতা এবং বৈশ্বিক সাংবাদিকতার নির্ভরযোগ্য প্রতীক",
+    "site_tagline_en": "Truth, Objectivity and the Benchmark of Global Digital Journalism",
+    "logo_text": "PRIME NEWS GRAPH",
+    "default_language": "bn",
+    "contact_email": "contact@primenewsgraph.com",
+    "contact_phone": "+880 1800-NEWSGRAPH",
+    "contact_address": "International News Complex, Level 14, Motijheel C/A, Dhaka 1000 & 75 Rockefeller Plaza, New York, NY 10019",
+    "copyright_text": "© 2026 PRIME NEWS GRAPH. All rights reserved. Global Editorial & Investigative Network.",
+    "facebook_url": "https://facebook.com/primenewsgraph",
+    "twitter_url": "https://x.com/primenewsgraph",
+    "youtube_url": "https://youtube.com/primenewsgraph",
+    "instagram_url": "https://instagram.com/primenewsgraph",
+    "whatsapp_number": "+8801800639747",
+    "telegram_url": "https://t.me/primenewsgraph",
+    "homepage_sections": {
+      "hero": true,
+      "breaking": true,
+      "latest": true,
+      "popular": true,
+      "categories": true,
+      "editors_choice": true,
+      "videos": true,
+      "newsletter": true
+    }
+  },
+  "admin_users": [
+    {
+      "id": "adm-owner-1",
+      "username": "amazonshopping14264@gmail.com",
+      "email": "amazonshopping14264@gmail.com",
+      "password_hash": "09fe6e706f7681cd479b06e92b47738482bb68ed00357c61cfbab24d7370498e02ad82ad07287b6b691aab1efe6934c2f82d1201d794476dc608abe97724c1f8",
+      "salt": "ab88ffe1f80bba9a853e4639aac97057",
+      "role": "super_admin",
+      "two_factor_enabled": true,
+      "recovery_codes": [
+        "PNG-9821-4192",
+        "PNG-3019-8472",
+        "PNG-5819-2741",
+        "PNG-4918-2048",
+        "PNG-6729-1092"
+      ],
+      "last_login": "2026-11-09T11:03:06.183Z"
+    }
+  ]
+}

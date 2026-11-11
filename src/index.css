@@ -1,0 +1,91 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-sans: 'Inter', 'Noto Sans Bengali', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-serif: 'Playfair Display', Georgia, Cambria, 'Times New Roman', serif;
+    --font-bengali: 'Noto Sans Bengali', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #F8FAFC;
+    color: #1E293B;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  .dark body {
+    background-color: #0B132B;
+    color: #F1F5F9;
+  }
+
+  h1, h2, h3, .font-serif-headline {
+    font-family: var(--font-serif);
+  }
+  
+  [lang="bn"] .font-serif-headline,
+  .font-bengali-headline {
+    font-family: var(--font-bengali), var(--font-sans);
+  }
+}
+
+/* Ticker marquee animation */
+@keyframes ticker {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-50%, 0, 0); }
+}
+
+.animate-marquee {
+  display: inline-flex;
+  white-space: nowrap;
+  animation: ticker 35s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Article Print styles */
+@media print {
+  header, footer, .no-print, .ad-placement, button, nav {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 12pt;
+  }
+  .article-content {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+/* Mobile Touch & Zoom Normalization: Prevent accidental pinch/double-tap zoom on mobile, allow normal desktop zoom */
+@media (max-width: 1024px) {
+  html, body {
+    touch-action: pan-y;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    overflow-x: hidden;
+    max-width: 100vw;
+    width: 100%;
+  }
+}
+
+/* Dynamic Article Font Scaling (A-, A, A+) */
+.article-dynamic-content p,
+.article-dynamic-content span,
+.article-dynamic-content div,
+.article-dynamic-content li,
+.article-dynamic-content blockquote {
+  font-size: inherit !important;
+  line-height: inherit !important;
+}
+
+/* Ensure no elements cause horizontal scrolling on mobile */
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}

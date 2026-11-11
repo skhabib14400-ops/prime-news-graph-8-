@@ -1,0 +1,92 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwnerEmail() {
+      return isSignedIn() && request.auth.token.email.lower() == 'amazonshopping14264@gmail.com';
+    }
+
+    function isAdmin() {
+      return isSignedIn() && (
+        isOwnerEmail() ||
+        exists(/databases/$(database)/documents/admins/$(request.auth.uid))
+      );
+    }
+
+    // Default deny catch-all
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Admins collection: strictly protected against public registration
+    match /admins/{adminId} {
+      allow read: if isSignedIn() && (request.auth.uid == adminId || isAdmin());
+      // Only the verified owner can create or update their own admin record; public registration is completely blocked
+      allow write: if isOwnerEmail() && request.auth.uid == adminId;
+    }
+
+    // News Articles: public read for published, admin write
+    match /news_articles/{articleId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // News Categories: public read, admin write
+    match /news_categories/{categoryId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // Breaking News: public read, admin write
+    match /breaking_news/{itemId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // Advertisements: public read, admin write
+    match /advertisements/{adId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // Authors: public read, admin write
+    match /authors/{authorId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // Comments: public read for approved, public insert, admin full control
+    match /comments/{commentId} {
+      allow read: if true;
+      allow create: if request.resource.data.content is string &&
+                       request.resource.data.content.size() <= 2000 &&
+                       request.resource.data.author_name is string &&
+                       request.resource.data.author_name.size() <= 100;
+      allow update, delete: if isAdmin();
+    }
+
+    // Newsletter Subscribers: public create, admin manage
+    match /newsletter_subscribers/{subscriberId} {
+      allow read, delete: if isAdmin();
+      allow create: if request.resource.data.email is string &&
+                       request.resource.data.email.size() <= 150;
+    }
+
+    // Videos: public read, admin write
+    match /videos/{videoId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // Website Settings: public read, admin write
+    match /website_settings/{settingId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+  }
+}

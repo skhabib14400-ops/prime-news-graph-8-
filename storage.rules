@@ -1,0 +1,24 @@
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isAdmin() {
+      return isSignedIn() && (
+        request.auth.token.email == 'amazonshopping14264@gmail.com' ||
+        request.auth.token.email == 'alamin11gtN@primenewsgraph.com' ||
+        request.auth.token.role == 'super_admin'
+      );
+    }
+
+    // Public read for all news photography, graphics, and media
+    match /{allPaths=**} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+  }
+}

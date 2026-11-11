@@ -1,0 +1,6 @@
+{
+  "name": "PRIME NEWS GRAPH",
+  "description": "PRIME NEWS GRAPH – Premium International Digital News Portal, Full Editorial CMS, and Breaking News Network.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

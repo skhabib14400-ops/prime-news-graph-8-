@@ -1,0 +1,208 @@
+{
+  "entities": {
+    "Admin": {
+      "title": "Admin",
+      "description": "System administrator user record for PRIME NEWS GRAPH",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "username": { "type": "string" },
+        "email": { "type": "string" },
+        "role": { "type": "string", "enum": ["super_admin", "editor"] },
+        "created_at": { "type": "string" }
+      },
+      "required": ["id", "username", "role"]
+    },
+    "NewsArticle": {
+      "title": "NewsArticle",
+      "description": "Editorial news article in Bengali and English with rich formatting",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "slug": { "type": "string" },
+        "title_bn": { "type": "string" },
+        "title_en": { "type": "string" },
+        "summary_bn": { "type": "string" },
+        "summary_en": { "type": "string" },
+        "content_bn": { "type": "string" },
+        "content_en": { "type": "string" },
+        "category_id": { "type": "string" },
+        "category_slug": { "type": "string" },
+        "category_name_bn": { "type": "string" },
+        "category_name_en": { "type": "string" },
+        "author_id": { "type": "string" },
+        "author_name": { "type": "string" },
+        "featured_image": { "type": "string" },
+        "status": { "type": "string", "enum": ["published", "draft", "archived", "scheduled"] },
+        "is_featured": { "type": "boolean" },
+        "is_editors_choice": { "type": "boolean" },
+        "views_count": { "type": "number" },
+        "published_at": { "type": "string" },
+        "updated_at": { "type": "string" }
+      },
+      "required": ["id", "slug", "title_bn", "content_bn", "category_slug", "status"]
+    },
+    "NewsCategory": {
+      "title": "NewsCategory",
+      "description": "Editorial category desk for organizing articles",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name_bn": { "type": "string" },
+        "name_en": { "type": "string" },
+        "slug": { "type": "string" },
+        "color": { "type": "string" },
+        "order_index": { "type": "number" },
+        "description": { "type": "string" }
+      },
+      "required": ["id", "name_bn", "slug"]
+    },
+    "BreakingNews": {
+      "title": "BreakingNews",
+      "description": "Urgent scrolling ticker news items",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title_bn": { "type": "string" },
+        "title_en": { "type": "string" },
+        "target_url": { "type": "string" },
+        "priority": { "type": "number" },
+        "is_active": { "type": "boolean" },
+        "scroll_speed": { "type": "number" },
+        "created_at": { "type": "string" }
+      },
+      "required": ["id", "title_bn", "is_active"]
+    },
+    "Advertisement": {
+      "title": "Advertisement",
+      "description": "Adsterra and direct advertisement slots and script configurations",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "format": { "type": "string", "enum": ["banner", "popunder", "social_bar", "native"] },
+        "ad_code": { "type": "string" },
+        "is_active": { "type": "boolean" },
+        "device_target": { "type": "string", "enum": ["all", "desktop", "mobile"] },
+        "impressions": { "type": "number" },
+        "clicks": { "type": "number" }
+      },
+      "required": ["id", "name", "format", "ad_code"]
+    },
+    "Author": {
+      "title": "Author",
+      "description": "Journalist and contributor profiles",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "bio_bn": { "type": "string" },
+        "bio_en": { "type": "string" },
+        "avatar": { "type": "string" },
+        "email": { "type": "string" },
+        "role": { "type": "string" }
+      },
+      "required": ["id", "name"]
+    },
+    "Comment": {
+      "title": "Comment",
+      "description": "Reader feedback and comments on published articles",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "article_id": { "type": "string" },
+        "author_name": { "type": "string" },
+        "author_email": { "type": "string" },
+        "content": { "type": "string" },
+        "status": { "type": "string", "enum": ["approved", "pending", "spam"] },
+        "created_at": { "type": "string" }
+      },
+      "required": ["id", "article_id", "author_name", "content"]
+    },
+    "Subscriber": {
+      "title": "Subscriber",
+      "description": "Newsletter email subscribers",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "email": { "type": "string" },
+        "status": { "type": "string", "enum": ["active", "unsubscribed"] },
+        "created_at": { "type": "string" }
+      },
+      "required": ["id", "email"]
+    },
+    "VideoItem": {
+      "title": "VideoItem",
+      "description": "Video journalism and multimedia broadcasts",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title_bn": { "type": "string" },
+        "title_en": { "type": "string" },
+        "youtube_id": { "type": "string" },
+        "category": { "type": "string" },
+        "is_featured": { "type": "boolean" },
+        "published_at": { "type": "string" }
+      },
+      "required": ["id", "title_bn", "youtube_id"]
+    },
+    "WebsiteSettings": {
+      "title": "WebsiteSettings",
+      "description": "Global website configuration, branding, and contact parameters",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "site_name": { "type": "string" },
+        "site_tagline_bn": { "type": "string" },
+        "site_tagline_en": { "type": "string" },
+        "default_language": { "type": "string" },
+        "contact_email": { "type": "string" },
+        "contact_phone": { "type": "string" },
+        "copyright_text": { "type": "string" }
+      },
+      "required": ["id", "site_name"]
+    }
+  },
+  "firestore": {
+    "/admins/{adminId}": {
+      "schema": "Admin",
+      "description": "Administrator accounts and security roles"
+    },
+    "/news_articles/{articleId}": {
+      "schema": "NewsArticle",
+      "description": "Published and draft news articles"
+    },
+    "/news_categories/{categoryId}": {
+      "schema": "NewsCategory",
+      "description": "News categories and desk taxonomy"
+    },
+    "/breaking_news/{itemId}": {
+      "schema": "BreakingNews",
+      "description": "Real-time breaking news items"
+    },
+    "/advertisements/{adId}": {
+      "schema": "Advertisement",
+      "description": "Adsterra and display banner configurations"
+    },
+    "/authors/{authorId}": {
+      "schema": "Author",
+      "description": "Staff journalists and contributing reporters"
+    },
+    "/comments/{commentId}": {
+      "schema": "Comment",
+      "description": "Public comments submitted on articles"
+    },
+    "/newsletter_subscribers/{subscriberId}": {
+      "schema": "Subscriber",
+      "description": "Daily newsletter subscribers"
+    },
+    "/videos/{videoId}": {
+      "schema": "VideoItem",
+      "description": "Featured video broadcasts"
+    },
+    "/website_settings/{settingId}": {
+      "schema": "WebsiteSettings",
+      "description": "Global website settings and metadata"
+    }
+  }
+}
